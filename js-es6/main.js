@@ -99,7 +99,7 @@ $(() => {
     const searchResultRendering = searchResult.map((result) => {
 		return {
     		pagination : result.pagination,
-    		img : 'http://ps4.local/'+result.image.thumbnail
+    		img : 'http://ps4.dev/'+result.image.thumbnail
     	};
     });
 
